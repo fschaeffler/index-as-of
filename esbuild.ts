@@ -1,5 +1,4 @@
 import { build, BuildOptions } from 'esbuild'
-import { dependencies } from './package.json'
 import { Generator } from 'npm-dts'
 
 new Generator({
@@ -12,7 +11,6 @@ const config: BuildOptions = {
   bundle: true,
   minify: true,
   tsconfig: 'tsconfig.build.json',
-  external: Object.keys(dependencies),
 }
 
 build({

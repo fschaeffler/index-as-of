@@ -1,9 +1,10 @@
 {
   "name": "@fschaeffler/index-as-of",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "keywords": ["index", "back-testing", "NASDAQ", "NDX", "stocks", "trading"],
   "files": [
     "dist/*"
   ],
